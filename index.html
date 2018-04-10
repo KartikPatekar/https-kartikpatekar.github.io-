@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<base target="iframe_pages">
+<style>
+body {
+	margin-top: 0px;
+    background-color: lightgreen;
+}
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+
+}
+
+a {
+    color: hotpink;
+}
+h1{
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 3px 2px white;
+    font-size: 75px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+<div class="line" style="background-color:#00AAEE; margin-top: -30px; width: 100%; height: 90px; border-bottom: 5px solid black;">
+	<h1>Kartik Patekar</h1>
+</div>
+
+<div class="box"><iframe src="webpages/content.html" frameborder="0" width="15%" align="left"> </iframe> </div>
+
+<div class="box"><iframe  name="iframe_pages" src="webpages/home.html" frameborder="0" width="85%" align="right">
+    </iframe>
+
+</body>
+</html>
